@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(121, 113, 113);
+}
+.head{
+    background-color: black;  
+}
+.menu{
+    background-color: rgba(150, 170, 48, 0.459);
+}
+.container{overflow: hidden;}
+.titulo {
+    font-size: 23px;
+    align-content: center;
+    -webkit-text-stroke: 1px white;
+    color: black;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content>div[class^='secction-']{
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(94, 92, 14);
+    width: 100%;
+    padding: 10px;
+}
+
+.list-cont{
+    float: right;
+    box-sizing: border-box;
+    color: salmon;
+    font-size: 20px;
+    width: 49%;
+    padding: 10px;
+}
+.input-field{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    align-content: center;
+}
+.footer{
+    text-align: center;
+}
+.IconCon{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+.icon{
+    float: left;
+    box-sizing: border-box;
+    width: 25%;
+
+}
+.vid {display: none;}
+@media screen and (min-width: 600px ) and (max-width:999px)  {
+    .menuItem{
+        float: left;
+        box-sizing: border-box;
+        width: 33.33%;
+        height: 40px;
+        border: solid 1px rgb(255, 0, 0);
+        background-color: rgb(136, 255, 0);
+        text-align: center;
+    }
+    .H_img {display: none;}
+    .vid { display: block}
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .titulo {
+        font-size: 42px;
+        align-content: center;
+        -webkit-text-stroke: 1px white;
+        color: black;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .list-cont{
+        float: right;
+        box-sizing: border-box;
+        color: salmon;
+        font-size: 25px;
+        width: 48%;
+        padding: 12px;
+    }
+}
+@media screen and (min-width:1000px)  {
+    .menuItem{
+        float: left;
+        box-sizing: border-box;
+        width: 33.33%;
+        height: 40px;
+        border: solid 1px #ccc;
+        background-color: rgb(255, 68, 0);
+        text-align: center;
+    }
+    .H_img {display: none;}
+    .vid { display: block}
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .titulo {
+        font-size: 51px;
+        align-content: center;
+        -webkit-text-stroke: 1px white;
+        color: black;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .list-cont{
+        float: right;
+        box-sizing: border-box;
+        color: salmon;
+        font-size: 30px;
+        width: 49%;
+        padding: 10px;
+    }
+}
